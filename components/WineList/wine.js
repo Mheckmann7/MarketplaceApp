@@ -20,6 +20,4 @@ export default [{
     subtitle: "Starting at $40",
     image: require('../../assets/images/rose.jpg')
 },
-    
-
 ]
