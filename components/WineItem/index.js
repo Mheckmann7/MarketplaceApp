@@ -13,7 +13,16 @@ const WineItem = (props) => {
           <Text style={styles.title}>Red Wines</Text>
           <Text style={styles.subtitle}>Starting at $60</Text>
         </View>
-        <Button type="primary"/> 
+        <Button type="primary"
+          content={"Readily Avaliable"}
+          onPress={() => {
+          console.log('Custom')
+          }} /> 
+          <Button type="secondary"
+          content={"Custom Order"}
+          onPress={() => {
+          console.log('Custom')
+        }}/> 
       </View>
     );
 };
