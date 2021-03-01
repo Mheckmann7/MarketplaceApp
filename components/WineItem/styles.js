@@ -1,9 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
     wineContainer: {
         width: '100%',
-        height: '100%', 
+        height: Dimensions.get('window').height, 
       },
       titles: {
         marginTop: '25%',
@@ -17,12 +17,12 @@ const styles = StyleSheet.create({
       }, 
       subtitle: {
         fontSize: 16, 
-        color: '#EED0CF',
+        color: '#3B3B3B',
       }, 
-  subtitleCTA: {
+      subtitleCTA: {
         textDecorationLine: 'underline',
         fontSize: 16, 
-        color: '#EED0CF',
+        color: '#3B3B3B',
       },
       image: {
         width: '100%',
