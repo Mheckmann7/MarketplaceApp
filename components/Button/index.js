@@ -6,7 +6,7 @@ const Button = (props) => {
 
     const { type, content, onPress } = props;
 
-    const backgroundColor = type === 'primary' ? '#3A1110CC' : '#EED0CFCC';
+    const backgroundColor = type === 'primary' ? '#3A1110DD' : '#EED0CFDD';
     const textColor = type === 'primary' ? '#EED0CF' : '#3A1110';
     return (
         <View style={styles.container}>

@@ -1,21 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, ImageBackground, SafeAreaView } from 'react-native';
-import WineItem from './components/WineItem'
+import { StyleSheet, View } from 'react-native';
+import WineList from './components/WineList'
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <WineItem />
+    <View style={styles.container}>
+      <WineList />
       <StatusBar style="auto" /> 
-    </SafeAreaView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#3A1110',
     alignItems: 'center',
     justifyContent: 'center',
   },
