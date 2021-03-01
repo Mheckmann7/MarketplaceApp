@@ -15,11 +15,11 @@ export default [{
     subtitle: "Starting at $90",
     image: require('../../assets/images/champagne.jpg')
     },
-    {
-        title: "Rosé",
-        subtitle: "Starting at $40",
-        image: require('../../assets/images/rose.jpg')
-    },
+{
+    title: "Rosé",
+    subtitle: "Starting at $40",
+    image: require('../../assets/images/rose.jpg')
+},
     
 
 ]
